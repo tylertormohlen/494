@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<h2> ITP 2</h2>
+</head>
+<body>
+
+<?php
+	$cTime = date("h:i:sa");
+	$early = date("5:45:00am");
+	$mid = date("12:00:00pm");
+	$late = date("6:00:00pm");
+	
+	if ($cTime >= $early && < $mid) {
+		echo "Guten morgen";
+	} elif ($cTime >= $mid && < $late) {
+		echo "Guten tag";
+	} else {
+		echo "Guten abend";
+	}
+	?>
+	</body>
+	
+</html>
