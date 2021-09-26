@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head> 
-<h2> ITP 2</h2>
+<h2> Tyler Tormohlen, ttormohl </h2>
 </head>
 <body>
 
