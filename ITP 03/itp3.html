@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ITP3</title>
+</head>
+<body>
+
+<h1>Calculator</h1>
+<form name = "calc">
+	<table>
+    	<tr>
+        	<td colspan = "4">
+            <input type = "text" name = "display" id = "display" disabled>
+            </td>
+        </tr>	
+        <tr>
+       		<td> <input type = "button" name = "zero" value = "0" onClick = "calculator.display.value += '0'"</td>
+            <td> <input type = "button" name = "eight" value = "8" onClick = "calculator.display.value += '8'"</td>
+            <td> <input type = "button" name = "one" value = "1" onClick = "calculator.display.value += '1'"</td>
+            <td> <input type = "button" name = "five" value = "5" onClick = "calculator.display.value += '5'"</td>
+        </tr>
+		<tr>
+        	<td> <input type = "button" id = "Clear" name = "Clear" onClick = "calculator.display.value = ''"</td>
+            <td> <input type = "button" name = "Equals" value = "=" onClick = "calculator.display.value = eval(calculator.display.value)"</td>
+            <td> <input type = "button" name = "Sub" value = "-" onClick = "calculator.display.value += '-'"</td>
+            <td> <input type = "button" name = "Mult" value = "*" onclick = "calculator.display.value += '*'"</td>
+            </tr>
+     </table>
+</form>
+</body>
+</html>
